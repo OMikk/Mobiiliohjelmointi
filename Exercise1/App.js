@@ -61,13 +61,13 @@ const styles = StyleSheet.create({
   button1: {
     width: "10%",
     height: 40,
-    marginLeft: "50%",
+    marginLeft: "60%",
     paddingRight: "0.5%",
   },
   button2: {
     width: "10%",
     height: 40,
-    marginRight: "50%",
+    marginRight: "60%",
     paddingLeft: "0.5%",
   },
   numbox: {
