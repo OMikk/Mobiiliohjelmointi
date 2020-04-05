@@ -21,14 +21,12 @@ const App = () => {
 
   const addItem = (text) => {
     if (!text) {
+      alert("please put some text");
     } else {
       setItems((currentItems) => {
         const currentItemText = currentItems.map((item) => item.text);
-        if (!currentItemText.includes(text)) {
-          return [{ id: uuid(), text }, ...currentItems];
-        } else {
-          return [...currentItems];
-        }
+
+        return [{ id: uuid(), text }, ...currentItems];
       });
     }
   };
